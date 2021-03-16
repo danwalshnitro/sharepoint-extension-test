@@ -18,7 +18,6 @@
   "items": {
     "COMMAND_OPEN_NITRO": {
       "title": { "default": "Open in Nitro Pro" },
-      "iconImageUrl": "icons/cancel.png",
       "type": "command"
     }
   }
