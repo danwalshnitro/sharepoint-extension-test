@@ -91,6 +91,6 @@ export default class SharepointExtensionTestCommandSet extends BaseListViewComma
       () => {
         window.open(customUrl, "_blank");
       }
-    )
+    );
   }
 }
