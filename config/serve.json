@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://gonitroeng.sharepoint.com/sites/danwalshnitro/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "96c60b86-54a9-4c35-91e6-9ed4f29f18fb": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "sharepointExtensionTest": {
+      "pageUrl": "https://gonitroeng.sharepoint.com/sites/danwalshnitro/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "96c60b86-54a9-4c35-91e6-9ed4f29f18fb": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

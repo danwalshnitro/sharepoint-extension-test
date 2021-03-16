@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sharepoint-extension-test-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/sharepointExtensionTest/SharepointExtensionTestCommandSet.js",
+          "manifest": "./src/extensions/sharepointExtensionTest/SharepointExtensionTestCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharepointExtensionTestCommandSetStrings": "lib/extensions/sharepointExtensionTest/loc/{locale}.js"
+  }
+}
